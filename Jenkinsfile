@@ -1,5 +1,7 @@
 pipeline{
-stages{
-stage('Testing webhook'){
-steps{
-echo "Success"}}}}
+agent any
+  stages{
+  stage('Testing webhook'){
+  steps{
+    echo "Success"
+  }}}}
