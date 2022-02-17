@@ -5,8 +5,10 @@ agent any
   steps{
     echo "Success"
   }}
-  stage('email notification'){
+  stage('Email Notification'){
     steps{
-      mail bcc: '', body: 'This is a testing of build  email notification ', cc: '', from: '', replyTo: '', subject: 'Jenkins build ', to: 'gautham.kukutla@gmail.com'
+      mail bcc: '', body: '''This is a testing of Email notification 
+thanks
+Ray''', cc: '', from: '', replyTo: '', subject: 'Email Notification', to: 'raysubham90@gmail.com'
     }}}
 }
