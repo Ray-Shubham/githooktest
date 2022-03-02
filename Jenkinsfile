@@ -7,8 +7,10 @@ agent any
   }}
   stage('Email Notification'){
     steps{
-      mail bcc: '', body: '''This is a testing of Email notification 
-thanks
-Ray''', cc: '', from: '', replyTo: '', subject: 'Email Notification', to: 'raysubham90@gmail.com'
+mail bcc: '', body: '''HI 
+this is a test of jenkins mail
+
+thanks and regards,
+subham''', cc: '', from: '', replyTo: '', subject: '', to: 'raysubham90@gmail.com'
     }}}
 }
